@@ -180,6 +180,7 @@ hr {
     border: solid rgb(175, 175, 175) 1px;
 }
 
+
 .plan-advantages{
 
     width: 85%;
@@ -188,5 +189,8 @@ hr {
     margin: 0 auto;
 }
 
+.grey {
+    color:rgb(192, 192, 192)
+}
 
 
