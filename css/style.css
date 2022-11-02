@@ -405,3 +405,35 @@ hr {
 .yellow {
     background-color: #0044ff;
 }
+
+.container-seventh-section {
+    width: 100%;
+    height: 250px;
+    background-color: #b4d0e7;
+    display: flex;
+    
+}
+
+.row-seventh-section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-50-seventh-section {
+    display: flex;
+    align-items: center;
+}
+
+.col-50-seventh-section h2 {
+    color: #61082b;
+}
+
+.seventh-section-button {
+    padding: 10px 50px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
