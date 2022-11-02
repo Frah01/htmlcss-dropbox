@@ -290,3 +290,24 @@ hr {
     text-decoration: none;
     color: black;
 }
+
+.container-fourth-section {
+    width: 100%;
+}
+
+.row-fourth-section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-30-fourth-section {
+    width: 30%;
+
+}
+
+.switching-tools-img {
+    width: 100%;
+    object-fit: contain;
+}
