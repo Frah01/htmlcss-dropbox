@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.row-header {
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+ 
+.col-50 {
+    height: 50px;
+    width: 100%;
+    
+}
+
+.logo {
+    padding: 10px;
+}
+
+.col-50 ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+
+}
+
+.col-50 li {
+    padding: 20px;
+}
+
+.header-button {
+    
+}
