@@ -120,6 +120,13 @@ header {
     padding-right: 20px;
 }
 
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
 
 
 .fa-arrow-down {
@@ -148,22 +155,16 @@ header {
 
 .second-section-container {
     width: 100%;
-    background-color: red;
-    height: 500px;
 }
 
 .first-row-second-section {
     width: 60%;
-    background-color: orange;
-    height: 100px;
     margin: 0 auto;
     text-align: left;
 }
 
 .second-row-second-section {
     width: 60%;
-    background-color: green;
-    height: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -171,8 +172,6 @@ header {
 
 .col-30-second-section {
     width: 30%;
-    height: 600px;
-    background-color: brown;
     border: solid rgb(192, 192, 192) 1px;
     
 }
@@ -188,10 +187,7 @@ hr {
 
 
 .plan-advantages{
-
     width: 85%;
-    height: 580px;
-    background-color: green;
     margin: 0 auto;
 }
 
@@ -202,7 +198,7 @@ hr {
 .column-button {
     text-decoration: none;
     color: white;
-    padding: 10px 56px;
+    padding: 10px 55px;
     background-color: #0061ff;
 
     
