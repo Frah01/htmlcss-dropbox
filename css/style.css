@@ -112,6 +112,10 @@ header {
     margin-top: 20px;
 }
 
+.margin-left-40px {
+    margin-left: 40px;
+}
+
 .padding-right-20px {
     padding-right: 20px;
 }
@@ -168,7 +172,9 @@ header {
 .col-30-second-section {
     width: 30%;
     height: 600px;
-    background-color: brown
+    background-color: brown;
+    border: solid rgb(192, 192, 192) 1px;
+    
 }
 
 .column-title {
@@ -193,4 +199,30 @@ hr {
     color:rgb(192, 192, 192)
 }
 
+.column-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 56px;
+    background-color: #0061ff;
+
+    
+}
+
+.hr-width-20 {
+    width: 20%;;
+}
+
+.content-plan-advantages ul {
+    list-style-type: none;
+
+}
+
+.content-plan-advantages li::before {
+    content: '\2713';
+    color: #2465ff;
+}
+
+.content-plan-advantages li {
+    padding: 15px;
+}
 
