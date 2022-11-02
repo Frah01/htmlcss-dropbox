@@ -330,14 +330,69 @@ hr {
 .row-sixth-section {
     width: 100%;
     margin: 0 auto;
-    background-color: orange;
-    height: 400px;
     display: flex;
 }
 
-.col-33 {
-    width: calc(100% / 3);
-    background-color: brown;
-    height: 300px;
+.col-10 {
+    width: calc(100% / 4);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
+.col-60 {
+    width: 60%;
+}
+
+.sixth-section-img {
+    width: 100%;
+    padding: 50px;
+    height: 250px;
+    object-fit: contain;
+    
+}
+
+.content-col-60 {
+    width: 90%;
+    background-color: grey;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.content-col-60 hr {
+    width: 20%;
+}
+
+.light-green {
+    background-color: #a2d39b;
+}
+
+.light-blue {
+    background-color: #0093ce;
+}
+
+.brown {
+    background-color: #61082b;
+    color: white;
+}
+
+.red {
+    background-color: #ff1c1c;
+}
+
+.dark-red {
+    background-color: #d5001f;
+}
+
+.dark-blue {
+    background-color: #0d2481;
+}
+
+.blue-sky {
+    background-color: #b4d0e7;
+}
+
+.yellow {
+    background-color: yellow;
+}
