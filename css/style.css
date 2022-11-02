@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
 }
 /*HEADER*/
 header {
@@ -60,35 +61,104 @@ header {
 
 /*INIZIO MAIN*/
 
+/*FIRST SECTION*/
 .first-section-container {
     width: 100%;
-    height: 500px;
-    background-color: red;
 }
 
 .row-first-section {
     width: 70%;
-    height: 200px;
-    background-color: orange;
     margin: 0 auto;
+}
+
+.content-first-row-first-section {
+    text-align: left;
+    font-size: 60px;
+
 }
 
 .second-row-first-section {
     width: 70%;
-    height: 300px;
     margin: 0 auto;
-    background-color: blue;
     display: flex;
 }
 
 .col-30 {
     width: 30%;
-    height: 280px;
-    background-color: brown
+    position: relative;
 }
 
 .col-70 {
     width: 70%;
-    height: 280px;
     background-color: white;
+}
+.second-row-first-section p {
+    padding-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: #0061ff;
+    
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.padding-right-20px {
+    padding-right: 20px;
+}
+
+
+
+.fa-arrow-down {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+
+.content-second-row-first-section {
+    width: 100%;
+    height: 100%;
+}
+
+.jumbo-image {
+    width: 100%;
+    height: 100%;
+    background-color: #b4d0e7;
+}
+.first-section-background {
+    background-color: #b4d0e7;
+}
+
+/*FINE FIRST SECTION*/
+
+/*SECOND SECTION*/
+
+.second-section-container {
+    width: 100%;
+    background-color: red;
+    height: 500px;
+}
+
+.first-row-second-section {
+    width: 60%;
+    background-color: orange;
+    height: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.second-row-second-section {
+    width: 60%;
+    background-color: green;
+    height: 600px;
+    margin: 0 auto;
 }
