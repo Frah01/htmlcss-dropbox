@@ -311,3 +311,33 @@ hr {
     width: 100%;
     object-fit: contain;
 }
+
+.container-fift-section {
+    width: 100%;
+}
+
+.row-fifth-section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-sixth-section {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+.row-sixth-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: orange;
+    height: 400px;
+    display: flex;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    background-color: brown;
+    height: 300px;
+}
+
