@@ -101,12 +101,19 @@ header {
     
 }
 
+p {
+    line-height: 30px;
+}
+
 .margin-top-30 {
     margin-top: 30px;
 }
 
 .margin-top-20 {
     margin-top: 20px;
+}
+.margin-top-100 {
+    margin-top: 100px;
 }
 
 .margin-left-40px {
@@ -247,4 +254,39 @@ hr {
 
 .content-container {
     border: 1px solid rgb(175, 175, 175);
+}
+
+
+.third-section-container {
+    width: 100%;
+}
+
+.row-third-section {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    
+    
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+
+.partner-img {
+    width: 80%;
+    object-fit: scale-down
+}
+
+.partner-button {
+    background-color: transparent;
+    border: 1px grey solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
 }
