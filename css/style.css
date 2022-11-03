@@ -140,6 +140,10 @@ p {
     padding-bottom: 30px;
 }
 
+.padding-30 {
+    padding: 30px 30px 30px 0px;
+}
+
 .margin-bottom-40 {
     margin-bottom: 40px;
 }
@@ -436,5 +440,35 @@ hr {
     background-color: white;
     text-decoration: none;
     color: black;
+}
+
+.container-eight-section {
+    width: 100%;
+}
+
+.row-eight-section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col-10-eight-section {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.col-90 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-domande-frequenti {
+    width: 60%;
+    margin: 0 auto;
 }
 
