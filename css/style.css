@@ -46,10 +46,12 @@ header {
 
 .header-button{
     text-decoration: none;
+    transition: 0.5s;
 
 }
 
 .text-black {
+    padding: 5px 10px ;
     color: black;
 
 }
@@ -105,6 +107,7 @@ header {
     color: white;
     padding: 10px 10px;
     background-color: #0061ff;
+    transition: 0.5s;
     
 }
 
@@ -227,6 +230,7 @@ hr {
     color: white;
     padding: 10px 55px;
     background-color: #0061ff;
+    transition: 0.5s;
 
     
 }
@@ -308,6 +312,7 @@ hr {
     padding: 5px 20px;
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
 
 .container-fourth-section {
@@ -444,6 +449,7 @@ hr {
     background-color: white;
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
 
 .container-eight-section {
@@ -516,4 +522,47 @@ hr {
 
 .italiano {
     color: white;
+}
+
+/*FINE STRUTTURA*/
+
+/*EFFETTI HOVER*/
+
+
+.header-list li:hover {
+    cursor: pointer;
+    color: grey;
+    
+}
+
+.header-button:hover {
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.column-button:hover {
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.partner-button:hover {
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.seventh-section-button:hover {
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    background-color: #0061ff;
+    color: white;
+}
+
+.row-footer li:hover {
+    color: rgb(190, 190, 190);
+    cursor: pointer;
 }
