@@ -67,6 +67,7 @@ header {
 /*FIRST SECTION*/
 .first-section-container {
     width: 100%;
+    height: 700px;
 }
 
 .row-first-section {
@@ -93,7 +94,7 @@ header {
 
 .col-70 {
     width: 70%;
-    background-color: white;
+    position: relative;
 }
 .second-row-first-section p {
     padding-top: 20px;
@@ -161,8 +162,7 @@ p {
 
 .jumbo-image {
     width: 100%;
-    height: 100%;
-    background-color: #b4d0e7;
+    display: absolute;
 }
 .first-section-background {
     background-color: #b4d0e7;
@@ -437,3 +437,4 @@ hr {
     text-decoration: none;
     color: black;
 }
+
