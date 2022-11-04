@@ -251,6 +251,7 @@ hr {
 
 .content-plan-advantages li {
     padding: 15px 15px 15px 0px;
+    display: flex;
 }
 
 .third-row-second-section {
