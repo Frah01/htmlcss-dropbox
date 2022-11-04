@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Whitney', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 /*HEADER*/
 header {
     width: 100%;
@@ -61,6 +66,34 @@ header {
     background-color: #0061ff;
     color: white;
 }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content p {
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #redirection-color {
+    text-decoration: none;
+    color: black;
+  }
 
 /*FINE HEADER*/
 
@@ -565,7 +598,6 @@ hr {
 
 .header-list li:hover {
     cursor: pointer;
-    color: grey;
     
 }
 
@@ -610,4 +642,8 @@ hr {
     cursor: pointer;
     color: #0061ff;
 }
+
+.dropdown-content p:hover {
+    color: #0061ff;
+  }
 
