@@ -84,7 +84,10 @@ header {
   .dropdown-content p {
     padding: 20px;
     font-size: 12px;
+
+    transition: 0.5s;
   }
+
 
   .dropdown:hover .dropdown-content {
     display: block;
@@ -645,5 +648,6 @@ hr {
 
 .dropdown-content p:hover {
     color: #0061ff;
+    background-color: rgb(194, 194, 194);
   }
 
