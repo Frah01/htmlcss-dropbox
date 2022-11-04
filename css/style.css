@@ -108,8 +108,14 @@ header {
     padding: 10px 10px;
     background-color: #0061ff;
     transition: 0.5s;
-    
 }
+.fa-arrow-down {
+    color: black;
+    transition: 0.5s;
+
+}
+    
+
 
 p {
     line-height: 30px;
@@ -466,6 +472,11 @@ hr {
 
 }
 
+.fa-angle-down {
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
 .col-90 {
     width: 90%;
     display: flex;
@@ -562,3 +573,14 @@ hr {
     color: rgb(190, 190, 190);
     cursor: pointer;
 }
+
+.fa-arrow-down:hover {
+    color: #0061ff;
+
+}
+
+.fa-angle-down:hover {
+    cursor: pointer;
+    color: #0061ff;
+}
+
